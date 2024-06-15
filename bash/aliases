@@ -1,0 +1,3 @@
+alias gromit='git commit -m'
+alias gps='git push'
+alias gpl='git pull'
