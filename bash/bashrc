@@ -154,6 +154,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+[[ -d $HOME/go/bin ]] && export PATH="$HOME/go/bin:$PATH"
 
 source_if_exists () {
   if test -r "$1"; then
