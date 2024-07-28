@@ -1,3 +1,4 @@
 alias gromit='git commit -m'
 alias gps='git push'
 alias gpl='git pull'
+alias gitadog='git log --all --decorate --oneline --graph'
