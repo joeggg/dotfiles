@@ -165,7 +165,7 @@ source_if_exists "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # Shell config
 source_if_exists "$HOME/.env.sh"
-source_if_exists "$HOME/bash/aliases"
+source_if_exists "$HOME/.aliases"
 
 # ros
 source_if_exists "/opt/ros/jazzy/setup.bash"
